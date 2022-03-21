@@ -1,0 +1,7 @@
+v 4
+file . "prac1.vhd" "f6740e1802c6106dd2b46b0a3a7c26482befa529" "20220321231214.918":
+  entity prac1 at 1( 0) + 0 on 11;
+  architecture systemand3_arch of prac1 at 8( 76) + 0 on 12;
+file . "prac1_tb.vhd" "0aabff4d0dec3cf958d46acc10ade1ac90bfaa0d" "20220321231351.993":
+  entity prac1_tb at 1( 0) + 0 on 15;
+  architecture behavior of prac1_tb at 5( 64) + 0 on 16;
