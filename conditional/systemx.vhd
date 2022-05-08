@@ -17,6 +17,9 @@ architecture systemx_arch of systemx is
             variable ABC : std_logic_vector(2 downto 0) := "000";
 
             begin
+                -- concatenate
+                ABC := A & B & C;
+
                 case (ABC) is
                     when "010" => F <= '1';
                     when "101" => F <= '1';
